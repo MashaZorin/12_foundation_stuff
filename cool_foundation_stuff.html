@@ -2,9 +2,13 @@
 <!-- DEMO FILE for CSS, part 2: ids, classes, divs--> 
 
 <html>
-  <head>
-    <title>yay for foundation!</title>
-    <link rel="stylesheet" href="foundation.css">
+
+<head>
+  <meta charset="utf-8">
+  <!-- If you delete this meta tag World War Z will become a reality -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yay for foundation!</title>
+  <link rel="stylesheet" href="foundation.css">
     <style>
       div.fixed {
       position: fixed;
@@ -23,7 +27,7 @@
       
   <!-- close button -->
     <div class="callout" data-closable>
-      <button class="close-button" aria-label="Close alert" type="button" data-close>
+        <button class="close-button" aria-label="Close alert" type="button" data-close>
         <span aria-hidden="true">&times;</span>
       </button>
       <p>This is a close button example.</p>
@@ -138,7 +142,7 @@
     </div>
 
     <!-- tooltip :) -->
-    <h2> <a id="6"> ToolTip </h2>
+    <h2> <a id="6"> Tooltip </h2>
     
     <p>The <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Fancy word for a beetle.">scarabaeus</span> hung quite clear of any branches, and, if allowed to fall, would have fallen at our feet. Legrand immediately took the scythe, and cleared with it a circular space, three or four yards in diameter, just beneath the insect, and, having accomplished this, ordered Jupiter to let go the string and come down from the tree.</p>
    </div>
@@ -159,6 +163,14 @@
       </ul>
    </div>
 </div>
+<script src="../foundation-6.4.2-complete/js/vendor/jquery.js"></script>
+  <script src="foundation.js"></script>
+  <script src="foundation.min.js"></script>
+  <script src="../foundation-6.4.2-complete/js/vendor/what-input.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
   </body>
 
 </html>
